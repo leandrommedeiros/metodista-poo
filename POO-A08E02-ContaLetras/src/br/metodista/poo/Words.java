@@ -1,4 +1,4 @@
-package br.metodista.br;
+package br.metodista.poo;
 
 /**
  * @title  POO - Aula 08 Exercício 02 - Conta Letras

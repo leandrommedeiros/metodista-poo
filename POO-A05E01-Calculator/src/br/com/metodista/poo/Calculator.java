@@ -1,4 +1,4 @@
-package br.com.metodista.LT;
+package br.com.metodista.poo;
 
 
 /**
