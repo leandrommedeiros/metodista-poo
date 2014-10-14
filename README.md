@@ -7,6 +7,7 @@ Este repositório contém resoluções dos exercícios propostos pelos professor
 Para quem tiver dificuldades recomendo a leitura do capítulo 4 [desta apostila](https://www.caelum.com.br/apostila-java-orientacao-objetos/);
 
 ## Considerações ##
+* Os fontes dos exercícios podem ser visualizados[aqui](src) e baixados [aqui](downloads).
 * Os códigos foram aqui publicados com a intenção de servir como material de estudo/revisão para os alunos do curso de Análise e Desenvolvimento de Sistemas.
 * Os projetos devem ser usados apenas como referência desenvolver seus próprios algorítimos, professores saberão se alguém copiar.
 * Quem tiver interesse em contribuir e publicar seus próprios projetos entre em contato comigo que eu forneço as permissões e ensino como trabalhar com o [GIT](http://git-scm.com/). Isto ajuda à encontrar as dificuldades mais comuns da turma e facilita que um ajude ao outro.
