@@ -42,3 +42,5 @@ Thumbs.db
 *.map
 *.rsm
 *.drc
+/POO-A02/build/
+/POO-A04-Televisao/build/
