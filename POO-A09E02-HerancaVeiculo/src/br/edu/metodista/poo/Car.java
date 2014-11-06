@@ -48,4 +48,16 @@ public class Car extends Vehicle {
     public int getYear() {
         return this.year;
     }
+
+    /**
+     * Obter Informações
+     * @return Texto com dados do veículo
+     */
+    @Override
+    public String getInfo() {
+        return "Sou um carro fabricado pela " + this.getManufacture()
+             + " em "                         + this.getYear()
+             + " do modelo "                  + this.getModel()
+             + " que roda à base de "         + this.getFuel();
+    }
 }

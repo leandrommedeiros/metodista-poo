@@ -35,4 +35,13 @@ public class Vehicle {
     public String getFuel() {
         return this.fuel;
     }
+
+    /**
+     * Obter Informações
+     * @return Texto com dados do veículo
+     */
+    public String getInfo() {
+        return "Sou um veículo que possui "   + this.getWheelsAmount()
+             + " rodas e funciono à base de " + this.getFuel();
+    }
 }

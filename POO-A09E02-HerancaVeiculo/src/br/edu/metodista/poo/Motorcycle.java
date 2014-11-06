@@ -20,8 +20,8 @@ public class Motorcycle extends Vehicle {
     public Motorcycle(String inFuel, int inCylinders, int inCCPerCylinder) {
         super(2, inFuel);
         
-        this.cylinders      = inCylinders;
-        this.ccPerCylinder  = inCCPerCylinder;
+        this.cylinders      = inCylinders     < 1  ? 1  : inCylinders;
+        this.ccPerCylinder  = inCCPerCylinder < 50 ? 50 : inCCPerCylinder;
         this.engineCapacity = inCylinders * inCCPerCylinder;
     }
 
@@ -47,5 +47,15 @@ public class Motorcycle extends Vehicle {
      */
     public int getEngineCapacity() {
         return this.engineCapacity;
+    }
+
+    /**
+     * Obter Informações (Sobreescrito).
+     * @return Texto com dados da moto
+     */
+    @Override
+    public String getInfo() {
+        return "Sou uma motocicleta com um motor de " + this.getEngineCapacity()
+             + "cc que roda à base de "               + this.getFuel();
     }
 }

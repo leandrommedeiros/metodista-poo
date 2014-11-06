@@ -28,4 +28,15 @@ public class Airplane extends Vehicle {
     public int getSeats() {
         return this.seats;
     }
+
+    /**
+     * Obter Informações
+     * @return Texto com dados do veículo
+     */
+    @Override
+    public String getInfo() {
+        return "Sou uma aeronave que possui "                    + this.getWheelsAmount()
+             + " rodas como trem de pouso, com capacidade para " + this.getSeats()
+             + " passageiros e que meu motor funciona com "      + this.getFuel();
+    }
 }
